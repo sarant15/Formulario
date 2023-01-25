@@ -16,9 +16,11 @@
     </p>
     <p>Cualquier duda consulte a: ayudaformulario@gmail.com</p>
     <form action="confirmacion.html" method="post" >
-        <p>Introduce el nombre <input type="text" name="nombre"></p>
-        <p>Introduce los apellidos <input type="text" name="apellidos"></p>
-        <p>Dirección <input type="text" name="direccion"></p>
+        <p>Nombre: <input type="text" required name="nombre"></p>
+        <p>Apellidos: <input type="text" placeholder="Escribe los dos apellidos" name="apellidos" size="25" ></p>
+        <p>Localidad: <input type="text" value="Toledo" name="localidad" size="18" minlength="2"></p>
+        <p>Dirección: <input type="text" placeholder="Escribe la calle y el número" required name="direccion"></p>
+        <p>Número de teléfono: <input type="text" placeholder="Escribe un teléfono móvil" name="telefono" size="18" maxlength="9"></p>
         <p><input type="submit" value="Enviar"></p>
      </form>
 </body>
