@@ -1,3 +1,6 @@
+body{
+    background-color:#f3f98f ;
+}
 fieldset{
 background-color: #f4f1ed ;
 color: firebrick;
@@ -10,3 +13,14 @@ legend{
     color: darkblue;
     font-weight: bold;
 }
+select {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: cursive, sans-serif;
+    outline: 0;
+    background: #2ec7cc;
+    color: #fff;
+    border: 1px solid rgb(220, 20, 170);
+    padding: 4px;
+    border-radius: 9px;
+  }
