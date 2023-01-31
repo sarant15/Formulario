@@ -1,26 +1,48 @@
-body{
-    background-color:#f3f98f ;
+body {
+    background-color: #cec3ff;
 }
-fieldset{
-background-color: #f4f1ed ;
-color: firebrick;
-border-color: darkgoldenrod;
-border: 9px groove (internal value);
-border-radius: 7px;
-width: 400px;
+form{
+    margin:auto;
+    width: 900px;
+    padding: 16px;
+    border-radius: 10px;
+
 }
-legend{
-    color: darkblue;
+fieldset {
+    background-color: #f4f1ed;
+    color: firebrick;
+    border-color: darkgoldenrod;
+    border: 9px groove (internal value);
+    border-radius: 7px;
+    width: auto;
+}
+
+legend {
+    text-align: center;
+    font-size: 25px;
+    color:  #0051ff;
     font-weight: bold;
 }
+
 select {
     margin-bottom: 10px;
     margin-top: 10px;
     font-family: cursive, sans-serif;
     outline: 0;
-    background: #2ec7cc;
-    color: #fff;
+    background: #c3d6ff ;
+    color: black;
     border: 1px solid rgb(220, 20, 170);
     padding: 4px;
     border-radius: 9px;
-  }
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+.centrado{
+    text-align: center;
+}
