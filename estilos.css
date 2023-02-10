@@ -10,7 +10,7 @@ form{
 }
 fieldset {
     background-color: #f4f1ed;
-    color: firebrick;
+    color: black;
     border-color: darkgoldenrod;
     border: 9px groove (internal value);
     border-radius: 7px;
@@ -20,7 +20,7 @@ fieldset {
 legend {
     text-align: center;
     font-size: 25px;
-    color:  #0051ff;
+    color: #e26a00;
     font-weight: bold;
 }
 
@@ -29,9 +29,8 @@ select {
     margin-top: 10px;
     font-family: cursive, sans-serif;
     outline: 0;
-    background: #c3d6ff ;
     color: black;
-    border: 1px solid rgb(220, 20, 170);
+    border: 1px solid #e26a00;
     padding: 4px;
     border-radius: 9px;
 }
